@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.ajith.learning.TestTrail
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.111 s <<< FAILURE! -- in com.ajith.learning.TestTrail
+com.ajith.learning.TestTrail.test -- Time elapsed: 0.012 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: This test case failed you have to go throught the code and logics ==> expected: <3> but was: <2>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:559)
+	at com.ajith.learning.TestTrail.test(TestTrail.java:17)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
